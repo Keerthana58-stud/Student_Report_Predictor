@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
-import os
  
 
 app=FastAPI()
