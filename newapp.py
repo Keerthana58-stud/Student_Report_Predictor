@@ -16,7 +16,7 @@ marks3 = st.number_input("Marks in English", min_value=0, max_value=100,value=50
 
 features=[marks1,marks2,marks3]
 
-model = joblib.load(open("api\\model.pkl", "rb"))
+model = joblib.load(open("model.pkl", "rb"))
 
 
 if st.button("Predict Result"):
